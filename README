@@ -1,0 +1,18 @@
+These are some of the spec files I use to create packages
+to get Puppet 4 running on AIX.  For the packages which 
+require compiling I use IBM's xlc compiler.  I built my own
+version of ruby 2.0 a while back, but since then Perzl has
+added Ruby to his library.  I would trust his work more than
+mine.  I put these together because PuppetLabs All-In-One 
+agent for AIX isn't out yet and I need to work on converting
+manifests and upgrading things. Most of these I copied from
+others initially so I make no claims at originality here.  
+Hopefully this helps others looking to do the same things.
+
+Always look here for AIX rpms first:
+http://www.perzl.org/aix
+
+And check PuppetLabs for their agent release:
+http://www.puppetlabs.com
+(They'll probably release it the day after I go to the 
+trouble of posing all of this)  ;-)
